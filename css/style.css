@@ -67,9 +67,9 @@ tr,
 th,
 td {
   margin: 0;
-  padding: -100px;
+  padding: 0px;
   border: 40px;
-  outline: -100px;
+  outline: 0px;
   font-weight: inherit;
   font-style: inherit;
   font-family: inherit;
