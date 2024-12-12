@@ -214,7 +214,7 @@ body {
   transform: scale(1.4, 3.2);
 }
 .outer {
-  max-width: 700px;
+  max-width: 980px;
   margin: 40px auto;
   padding: 0 20px;
 }
@@ -356,7 +356,7 @@ body {
 }
 .article {
   color: #333;
-  margin: 0 0 40px 0;
+  margin: 0 0px 40px 0px;
 }
 @media screen and (max-width: 479px) {
   .article {
@@ -434,7 +434,7 @@ body {
 .article-header h1 {
   margin: 0 0 3px 0;
   font-size: 1.6em;
-  line-height: 1.2;
+  line-height: 0;
   font-weight: bold;
 }
 .article-header h1 a {
@@ -538,14 +538,14 @@ a.article-title:hover {
   float: left;
   font-family: "FontAwesome";
   content: "\f10d";
-  margin-left: -0.8em;
+  margin-left: 0em;
 }
 .article-entry blockquote:after {
   float: right;
   font-family: "FontAwesome";
   content: "\f10e";
-  margin-right: -0.8em;
-  margin-top: -1.5em;
+  margin-right: 0em;
+  margin-top: 0em;
 }
 .article-entry blockquote p {
   font-size: 14px;
@@ -566,7 +566,7 @@ a.article-title:hover {
   margin: 18px 0;
   font-style: italic;
   text-align: left;
-  width: 45%;
+  width: 100%;
   margin: 0;
 }
 .article-entry .pullquote p {
