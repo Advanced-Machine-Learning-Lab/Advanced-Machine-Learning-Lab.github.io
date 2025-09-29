@@ -8049,6 +8049,40 @@ a:hover {
   font-weight: 600;
 }
 
+.img-row {
+  display: flex;
+  gap: 10px; /* 两张图片之间的间距，可调整 */
+}
+
+.img-row .activity-img {
+  width: 70%; /* 让两张图平分一行 */
+  object-fit: cover;
+  border-radius: 8px; /* 可选：圆角效果 */
+}
+
+.campus {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 两列 */
+  gap: 10px; /* 图片间距 */
+}
+
+.campus .activity-img {
+  width: 100%; 
+  height: auto;
+  border-radius: 8px; /* 圆角可选 */
+  object-fit: cover;
+}
+
+.campus .activity-title {
+  grid-column: span 2; /* 让标题独占一行 */
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+
+
+
 
 
 
